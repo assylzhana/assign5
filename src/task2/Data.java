@@ -13,7 +13,15 @@ class Data {
         return type;
     }
 
+    public void setType(String type) {
+        this.type = type;
+    }
+
     public Object getContent() {
         return content;
+    }
+
+    public void setContent(Object content) {
+        this.content = content;
     }
 }
